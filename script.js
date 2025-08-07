@@ -6,11 +6,11 @@ document.getElementById('confete').addEventListener('click', function () {
     const y = (rect.top + rect.height / 2) / window.innerHeight;
 
     confetti({
-      particleCount: 300,
-      spread: 200,        
+      particleCount: 400,
+      spread: 360,        
       startVelocity: 20,  
       scalar: 1.2,       
-      ticks: 100,         
+      ticks: 150,         
       origin: { x: x, y: y }
     });
   });
