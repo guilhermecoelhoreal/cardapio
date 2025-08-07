@@ -10,7 +10,7 @@ document.getElementById('confete').addEventListener('click', function () {
       spread: 360,        
       startVelocity: 20,  
       scalar: 1.2,       
-      ticks: 150,         
+      ticks: 100,         
       origin: { x: x, y: y }
     });
   });
