@@ -13,11 +13,6 @@ body {
     overflow-x: hidden;
     width: 100dvw;
     height: 100dvh;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-touch-callout: none;
 }
 
 img {
