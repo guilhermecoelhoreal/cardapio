@@ -6,8 +6,8 @@ document.getElementById('confete').addEventListener('click', function () {
     const y = (rect.top + rect.height / 2) / window.innerHeight;
 
     confetti({
-      particleCount: 400,
-      spread: 360,        
+      particleCount: 300,
+      spread: 70,        
       startVelocity: 25,  
       scalar: 1.2,       
       ticks: 100,         
