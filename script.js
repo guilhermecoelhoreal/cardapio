@@ -7,10 +7,10 @@ document.getElementById('confete').addEventListener('click', function () {
 
     confetti({
       particleCount: 300,
-      spread: 100,        
+      spread: 360,        
       startVelocity: 25,  
       scalar: 1.2,       
-      ticks: 200,         
+      ticks: 100,         
       origin: { x: x, y: y }
     });
   });
