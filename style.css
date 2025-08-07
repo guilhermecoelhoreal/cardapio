@@ -15,10 +15,6 @@ body {
     height: 100dvh;
 }
 
-img {
-    pointer-events: none;
-}
-
 a {
     line-height: 0;
 }
