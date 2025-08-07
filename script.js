@@ -7,8 +7,8 @@ document.getElementById('confete').addEventListener('click', function () {
 
     confetti({
       particleCount: 300,
-      spread: 360,        
-      startVelocity: 25,  
+      spread: 200,        
+      startVelocity: 20,  
       scalar: 1.2,       
       ticks: 100,         
       origin: { x: x, y: y }
