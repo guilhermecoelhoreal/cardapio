@@ -1,6 +1,8 @@
-document.addEventListener('gesturestart', function (e) {
-    e.preventDefault();
-  });
+document.addEventListener('touchstart', function (e) {
+    if (e.target.closest('body')) {
+      e.preventDefault();
+    }
+  }, { passive: false });
 
   let lastTouchEnd = 0;
   document.addEventListener('touchend', function (e) {
@@ -10,6 +12,18 @@ document.addEventListener('gesturestart', function (e) {
     }
     lastTouchEnd = now;
   }, false);
+
+  document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+  });
+
+  document.addEventListener('gesturechange', function (e) {
+    e.preventDefault();
+  });
+
+  document.addEventListener('gestureend', function (e) {
+    e.preventDefault();
+  });
 
   document.addEventListener('touchmove', function (e) {
     if (e.touches.length > 1) {
